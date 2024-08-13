@@ -56,11 +56,11 @@ yannick({ nomCom: "dev", categorie: "Général", reaction: "💞" }, async (dest
 
     const devs = [
       { nom: "Yannick Feranova", numero: "2250503348729" },
-      { nom: ", numero: "22891733300" },
+      { nom: "𝐷𝑎𝑏𝑖 𝑑𝑒𝑣𝑖𝑙𝑠", numero: "2250160543352" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 Bienvenue chez Zokou ! Voici les développeurs :\n\n";
+    let message = "👋 Bienvenue chez 𝑌𝑎𝑛𝑛𝑖𝑐𝑘-𝑀𝑑 ! Voici les développeurs :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
